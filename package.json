@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "sengitu",
+  "license": "ISC"
+}
