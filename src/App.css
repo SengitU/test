@@ -1,0 +1,43 @@
+body {
+  background-color: #f5f6f7;
+}
+
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 8, 32);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Card-list {
+  margin-top: 60px;
+  height: 300px;
+  max-width: 300px;
+  width: 90vw;
+}
+
+.Card-swipeable {
+  position: absolute;
+}
+

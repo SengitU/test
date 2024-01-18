@@ -1,0 +1,43 @@
+.Card-container {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  min-height: 200px;
+
+  padding: 16px;
+
+  border: 1px solid rgb(217, 225, 238);
+  cursor: pointer;
+  user-select: none;
+
+  color: #0C48B0;
+  background-color: white;
+}
+
+.Card-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  position: absolute;
+}
+
+.Card-selector {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.Card-selector.positive {
+  max-width: 25px;
+  max-height: 30px;
+}
+
+.Card-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Card-information {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
